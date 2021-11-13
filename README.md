@@ -9,6 +9,7 @@ This project live site (https://cycling-emporium.web.app/).
 - After create account it take to redirect user in the orders page on dashboard.
 - Order Page users saw all products for buy, User also can delete to any order from products orders card.
 - This website we also create One Admin who able to manage all products and all users.
+- User can review any products in rating section.
 
 ## Extra Package
 - React Bootstrap
