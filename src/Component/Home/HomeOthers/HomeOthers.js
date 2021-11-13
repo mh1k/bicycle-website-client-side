@@ -5,7 +5,7 @@ const HomeOthers = () => {
 
     const [othersfacility, setOthersfacility] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/otherfacility")
+        fetch("https://mysterious-tor-60699.herokuapp.com/otherfacility")
             .then(res => res.json())
             .then(data => setOthersfacility(data))
     }, [])

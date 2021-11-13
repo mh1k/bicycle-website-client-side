@@ -26,7 +26,7 @@ const Review = () => {
         }
         // console.log(newReviews);
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://mysterious-tor-60699.herokuapp.com/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

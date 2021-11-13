@@ -178,28 +178,3 @@ const Dashboard = () => {
 export default Dashboard;
 
 
-{/* <div className="d-flex flex-column justify-content-center   ">
-<Link className="py-2" to={`${url}/makeadmin`}>Pay</Link>
-<Link className="py-2" to={`${url}`}>My Orders</Link>
-<Link className="py-2" to={`${url}/review`}>Review</Link>
-<Link className="py-2" to={`${url}/makeadmin`}>Make Admin</Link>
-<Link className="py-2" to={`${url}/add_product`}>Add a Product</Link>
-<Link className="py-2" to={`${url}/manage_product`}>Manage Product</Link>
-<Link className="py-2" to={`${url}/manage_all_orders`}>Manage All Orders</Link>
-</div>
-<div className="mt-5">
-<button onClick="" className="text-decoration-none  text-light logout-btn  " >Logout</button>
-</div> */}
-
-{/* <div className="d-flex flex-column justify-content-center   ">
-<Link className="py-2 px-2 box-btn text-decoration-none" to={`${url}/makeadmin`}>Pay</Link>
-<Link className="py-2 px-2 box-btn text-decoration-none" to={`${url}`}>My Orders</Link>
-<Link className="py-2 px-2 box-btn text-decoration-none" to={`${url}/review`}>Review</Link>
-<Link className="py-2 px-2 box-btn text-decoration-none" to={`${url}/makeadmin`}>Make Admin</Link>
-<Link className="py-2 px-2 box-btn text-decoration-none" to={`${url}/add_product`}>Add a Product</Link>
-<Link className="py-2 px-2 box-btn text-decoration-none" to={`${url}/manage_product`}>Manage Product</Link>
-<Link className="py-2 px-2 box-btn text-decoration-none" to={`${url}/manage_all_orders`}>Manage All Orders</Link>
-</div>
-<div className="mt-5">
-<button onClick="" className="text-decoration-none  text-light logout-btn  " >Logout</button>
-</div> */}

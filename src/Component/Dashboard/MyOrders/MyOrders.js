@@ -8,7 +8,7 @@ const MyOrders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/orders/product?email=${user?.email}`)
+        fetch(`https://mysterious-tor-60699.herokuapp.com/orders/product?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setOrders(data))
     }, []);
@@ -18,7 +18,7 @@ const MyOrders = () => {
 
         const proceed = window.confirm("Are you sure, you want to cancel Order !!!")
         if (proceed) {
-            const url = `http://localhost:5000/orders/${id}`
+            const url = `https://mysterious-tor-60699.herokuapp.com/orders/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
@@ -26,7 +26,7 @@ const MyOrders = () => {
                 .then(data => {
                     // console.log(data);
                     if (data.deletedCount > 0) {
-                        alert("booking cancel Successfully")
+                        alert("Order cancel Successfully")
                         const remainingOrders = orders.filter(order => order._id !== id);
                         setOrders(remainingOrders)
                     }

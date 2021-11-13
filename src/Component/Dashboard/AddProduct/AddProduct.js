@@ -17,7 +17,7 @@ const AddProduct = () => {
     const handleAddProduct = e => {
         e.preventDefault()
 
-        fetch('http://localhost:5000/cycles', {
+        fetch('https://mysterious-tor-60699.herokuapp.com/cycles', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

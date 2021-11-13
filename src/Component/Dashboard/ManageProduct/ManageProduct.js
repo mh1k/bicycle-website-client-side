@@ -5,7 +5,7 @@ import Product from '../../Shared/Product/Product';
 const ManageProduct = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/cycles")
+        fetch("https://mysterious-tor-60699.herokuapp.com/cycles")
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
@@ -13,7 +13,7 @@ const ManageProduct = () => {
     const handleDeleteProduct = id=>{
         const proceed = window.confirm("Are you sure, you want to Delete Product !!!")
         if (proceed) {
-            const url = `http://localhost:5000/cycles/${id}`
+            const url = `https://mysterious-tor-60699.herokuapp.com/cycles/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
