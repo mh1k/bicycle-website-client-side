@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+  .dashbox{
+      display: none !important;
+  }
+  }
+  /* .box-btn:hover{
+    background-color: grey !important;
+    color: white !important;
+  } */
+  .box-btn{
+      color: black;
+  }
+
+  .dashboard-font{
+    font-size: 18px;
+    font-weight: 700;
+   
+  }
+  .dashboard-font:hover {
+    background-color: rgb(190, 186, 186) !important;
+  }
+  .dashboard-font:hover .box-btn {
+    color:white !important;
+  }
+
+  .dashbox{
+   border-right: 1px solid grey;
+}
+.user-icon{
+  border: 1px solid gray;
+  border-radius: 50%;
+}

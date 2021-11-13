@@ -1,0 +1,34 @@
+.login-img{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.login-buttn{
+    background-color: #cf0a2c!important;
+    border-radius: 0px !important;
+    border: 2px solid #cf0a2c ;
+    color: white;
+    padding: 8px 0px !important;
+    
+}
+.login-buttn:hover{
+    
+    color: white !important;
+   
+    
+    
+}
+.google-img{
+    border: 1px solid white !important;
+    border-radius: 15px;
+    background-color: white;
+}
+.google-btn{
+    color: white !important;
+    background-color: #06b16b !important;
+    padding: 6px 0px !important;
+    border-radius: 0px !important;
+    border: 1px solid #06b16b !important;
+}
+.google-btn:hover{
+    border: 1px solid #4754b7 !important;
+}

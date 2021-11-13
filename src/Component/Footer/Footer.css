@@ -1,0 +1,14 @@
+.footer-btn:hover{
+    
+    color: white;
+    text-decoration: underline !important;
+}
+
+#view-btn{
+    background-color: #212529 !important;
+    color: white;
+}
+
+.footer-logo{
+    width: 100%;
+}

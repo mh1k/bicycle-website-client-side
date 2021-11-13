@@ -1,0 +1,29 @@
+.packageCard{
+    border: 1px solid white !important;
+}
+.packageCard:hover{
+    border: 1px solid #c7c7c7 !important;
+}
+.buying-btn{
+    background-color: #cf0a2c !important;
+    border-radius: 0px !important;
+    color: white;
+}
+.buying-btn:hover{
+    background-color: #e94f69 !important;
+    border-radius: 0px !important;
+    color: white;
+}
+
+.product-img{
+    width: 100% !important;
+    height: 272px !important;
+    object-fit: cover !important;
+
+}
+.price{
+    color:#cf0a2c ;
+}
+.card-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.089) !important;
+}
